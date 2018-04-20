@@ -19,7 +19,7 @@ public class gamefuntion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Score>=50)
+		if(Score>=30)
         {
             win.text = "You Win";
         }
